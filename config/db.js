@@ -3,6 +3,6 @@ module.exports = {
   USER: "node_user",
   PASS: "node_password",
   PORT: 5432,
-  HOST: "heath4lifeqa1nasar.herokuapp.com",
+  HOST: "localhost",
   DEFAULTPW: "1234567890",
 };
