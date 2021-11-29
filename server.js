@@ -15,7 +15,6 @@ app.use(express.json({ limit: "5MB", extended: true }));
 
 app.get("/", (req, res) => {
   res.send("Health 4 Life API");
-  console.log(process.env.DATABASE);
 });
 
 // routes
